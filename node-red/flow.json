@@ -1,0 +1,47 @@
+[
+    {
+      "id": "1d19e6e4.2ba7ef",
+      "type": "mqtt in",
+      "z": "a1f05dcd.aa704",
+      "name": "",
+      "topic": "heart_rate",
+      "qos": "2",
+      "datatype": "auto",
+      "broker": "mqtt.eclipse.org",
+      "port": "1883",
+      "clientid": "",
+      "usetls": false,
+      "compatmode": true,
+      "keepalive": "60",
+      "cleansession": true,
+      "birthTopic": "",
+      "birthQos": "0",
+      "birthPayload": "",
+      "closeTopic": "",
+      "closeQos": "0",
+      "closePayload": "",
+      "willTopic": "",
+      "willQos": "0",
+      "willPayload": "",
+      "x": 160,
+      "y": 140,
+      "wires": [
+        ["ef1be086.a70e08"]
+      ]
+    },
+    {
+      "id": "ef1be086.a70e08",
+      "type": "debug",
+      "z": "a1f05dcd.aa704",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "x": 340,
+      "y": 140,
+      "wires": []
+    }
+  ]
+  
