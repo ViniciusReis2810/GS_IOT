@@ -1,4 +1,3 @@
-# GS_IOT
 # Solução de Monitoramento de Batimentos Cardíacos e Pressão Arterial
 
 Este repositório contém uma solução baseada em IoT para monitorar batimentos cardíacos e pressão arterial. A solução utiliza o Tinkercad para a simulação dos sensores e o Node-RED para processamento e visualização dos dados.
@@ -17,6 +16,15 @@ Este repositório contém uma solução baseada em IoT para monitorar batimentos
 2. Importe o fluxo do arquivo `node-red/flow.json` no Node-RED.
 3. Certifique-se de configurar o nó MQTT In para se conectar ao broker MQTT adequado (usando as configurações padrão de `mqtt.eclipse.org:1883`).
 4. Inicie o fluxo no Node-RED.
+
+## Configuração da Conexão MQTT para Testes no Hardware Físico
+
+### Tinkercad MQTT (Apenas para Simulação(Se rodar no tinkercad)):
+
+1. Abra o arquivo `mqtt/node_red_mqtt_flow.json` e copie o conteúdo.
+2. Cole o conteúdo no nó MQTT In do seu fluxo no Node-RED.
+
+Este repositório também contém um exemplo simples para a simulação de comunicação MQTT no Tinkercad no arquivo `mqtt/tinkercad_mqtt.ino`.
 
 ## Licença
 
